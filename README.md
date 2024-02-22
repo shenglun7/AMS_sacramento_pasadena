@@ -13,13 +13,14 @@ This repository contains data, code, result.
 - data
     - raw
       - log_sheet_pasadena: the log sheet file for Pasadema measurements
-      - Summary_O3_PA:
+      - Summary_O3_pasadena: chamber O3 concentration measured in Pasadena in 2021
          - bag1_int = intercept of linear regression coefficient of O3 concentration in bag1
          - bag1_sl = slope of linear regression coefficient of O3 contration in bag1
          - bag1_t0 = initial measured O3 concentration in bag 1
          - bag1_3hr = 3-hour projected O3 concentration in bag1
          - b1_b2_3hr = delta O3 (bag1 - bag2)
          - b3_b2_3hr = delta O3 (bag3 - bag2)
+      - Summary_O3_sacramento: chamber O3 concentration measured in Sacramento in 2020, same structure as Summary_O3_pasadena
     - intermediate
     - final
       - box_model_input_sacramento: ambient temperature profile in Sacramento (input file of box model)
